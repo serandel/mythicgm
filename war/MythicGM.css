@@ -1,0 +1,68 @@
+select {
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+#cabecera {
+	border-bottom: 2px solid gray;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+#cabecera td {
+	padding: 5px;
+}
+
+#cabecera input {
+	width: 100%;
+}
+
+#infoPartida {
+	padding: 5px;
+	border-right: 2px solid gray;
+}
+
+#infoPartida select {
+	width: 100%;
+}
+
+/* Esto se tiene que poder poner más fácil */
+#mythicGM>tbody>tr>td>table>tbody>tr>td>table {
+	margin: 5px;
+}
+
+.eventoAleatorio {
+	border: 2px solid red;
+	background: #dddddd;
+	padding: 5px;
+	width: 100%;
+}
+
+.preguntaSiNo {
+	border: 2px solid green;
+	background: #dddddd;
+	padding: 5px;
+	width: 100%;
+}
+
+.preguntaSiNo input {
+	width: 400px;
+}
+
+.preguntaSiNo .eventoAleatorio {
+	margin-top: 5px;
+}
+
+.panelBotones {
+	width: 100%;
+	margin-top: 5px;
+	border-top: 2px solid gray;
+	text-align: right;
+}
+
+.panelBotones>button,.panelBotones>a {
+	margin: 5px;
+}
